@@ -31,7 +31,7 @@ armi-openmc = "armi_openmc.__main__:main"
 
 [tool.uv.sources]
 armi = { git = "https://github.com/partofthething/armi", branch = "main" }
-openmc = { git = "https://github.com/openmc-dev/openmc", tag = "v0.15.3" }
+openmc = { git = "https://github.com/openmc-dev/openmc", tag = "v0.16.0" }
 
 [tool.setuptools.packages.find]
 include = ["armi_openmc*"]
